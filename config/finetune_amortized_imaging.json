@@ -1,0 +1,14 @@
+{
+    "max_epoch": 5,
+    "lr": 0.1,
+    "sigma": 4000.0,
+    "sigma_prior": 1.0,
+    "idx": 66,
+    "parihaka_label": 1,
+    "sim_name": "finetune_amortized_imaging_ablation",
+    "lr_step": 2,
+    "nsrc": 51,
+    "nrec": 204,
+    "resume": true,
+    "amortized_model_config": "test_amortized_imaging.json"
+}

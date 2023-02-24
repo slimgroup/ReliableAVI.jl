@@ -54,17 +54,3 @@ function set_activation!(
         end
     end
 end
-
-
-function set_activation!(
-    H::NetworkHINT;
-    activation::ActivationFunction = SigmoidLayer(low = 0.0f0),
-)
-    n = length(H.CL)
-    m = length(H.CL[1].CL)
-    for i = 1:n
-        for j = 1:m
-            H.CL[i].CL[j].activation = activation
-        end
-    end
-end

@@ -6,6 +6,10 @@ inference with physics-based latent distribution correction".
 
 ## Installation
 
+Before starting installing the required packages in Julia, make sure
+you have `matplotlib` and `seaborn` installed in your Python environment 
+since we depend on `PyPlot.jl` and `Seaborn.jl` for creating figures.
+
 Run the command below to install the required packages.
 
 ```bash
@@ -19,7 +23,7 @@ The training dataset will download automatically into
 
 ## Questions
 
-Please contact alisk@gatech.edu for questions.
+Please contact alisk@rice.edu for questions.
 
 ## Author
 

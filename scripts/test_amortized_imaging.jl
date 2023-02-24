@@ -51,7 +51,7 @@ data_path = datadir("training-data", "training-pairs.h5")
 # Download the dataset into the data directory if it does not exist
 if isfile(data_path) == false
     run(`wget https://www.dropbox.com/s/53u8ckb9aje8xv4/'
-        'training-pairs.h5 -q -O $data_path`)
+        'training-pairs.h5 --no-check-certificate -q -O $data_path`)
 end
 
 # Load seismic images and create training and testing data
